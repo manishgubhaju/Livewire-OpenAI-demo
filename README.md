@@ -64,3 +64,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Usage
+
+Set the OpenAI api key and organisation in the .env file for the below:
+OPENAI_API_KEY=
+OPENAI_ORGANIZATION=
+
+Once above is set access the path /form to access livewire form. Once a question entered, the answer is returned using the OpenAI api.
