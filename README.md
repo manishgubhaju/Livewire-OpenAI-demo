@@ -65,9 +65,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## Prerequisites
+
+- Requires PHP 8.1.
+- Requires OpenAI installation using below commands:
+
+composer require openai-php/laravel
+
+php artisan openai:install
+
 ## Usage
 
 Set the OpenAI api key and organisation in the .env file for the below:
+
 OPENAI_API_KEY=
 OPENAI_ORGANIZATION=
 
